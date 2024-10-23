@@ -41,10 +41,12 @@ main{
 .subsection-one{
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 .subsection-one-info{
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 .main-text{
     font-size: 20px;
@@ -53,4 +55,13 @@ main{
 #highlighted-links{
     color: blue;
     text-decoration: none;
+}
+.subsection-two{
+    display: flex;
+}
+.subsection-two img{
+
+    
+    width: 200px;
+    
 }
