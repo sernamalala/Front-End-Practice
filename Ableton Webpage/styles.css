@@ -2,8 +2,7 @@ body{
     padding: 10px;
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
-    font-style: normal;
-      
+    font-style: normal;    
       
 }
 header{
@@ -24,9 +23,22 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header a{
+header a, .extra-nav a{
     text-decoration: none;
     color: black;
     padding-left: 15px;
     
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.extra-nav{
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.subsection-one{
+    width: 80%;
+    margin: 0 auto;
 }
